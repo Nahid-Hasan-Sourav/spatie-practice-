@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from eliteadmin.themedesigner.in/demos/bt4/eliteadmin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Apr 2023 16:57:51 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +25,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label">Elite admin</p>
+            <p class="loader__label">Spatie Practice</p>
         </div>
     </div>
     <!-- ============================================================== -->
@@ -56,7 +55,7 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                @yield('body')
-                
+
             </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
@@ -69,8 +68,7 @@
         <!-- footer -->
         <!-- ============================================================== -->
         <footer class="footer">
-            © 2021 Eliteadmin by themedesigner.in
-            <a href="https://www.wrappixel.com/">WrapPixel</a>
+
         </footer>
         <!-- ============================================================== -->
         <!-- End footer -->
