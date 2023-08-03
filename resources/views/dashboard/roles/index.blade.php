@@ -10,11 +10,24 @@
                             <h4 class="fw-bold">ALL ROLES</h4>
                             <a href="{{route('roles-view')}}" class="btn btn-dark">CREATE</a>
                         </div>
-                        @if(session('success') )
-                        <div class="alert alert-success">
-                            {{ session('success') }}
-                        </div>
+                        <script>
+                            // success message popup notification
+                        @if(Session::has('success'))
+                        toastr.success("{{ Session::get('success') }}", "Success", {
+                        "toastClass": "toast bg-success text-white",
+                        "progressBarClass": "bg-success"
+                        });
+                           
                         @endif
+                    
+                        // error message popup notification
+                        @if(Session::has('error'))
+                        toastr.error("{{ Session::get('error') }}", "Error", {
+                         "toastClass": "toast bg-danger text-white",
+                         "progressBarClass": "bg-danger"
+                         });
+                        @endif
+                        </script>
             </div>
             <table class="table table-dark table-striped-columns w-full text-center">
                 <thead>

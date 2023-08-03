@@ -14,6 +14,9 @@
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->
+
+    <!-- Include Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <!--morris JavaScript -->
     <script src="{{ asset('/') }}admin/assets/node_modules/raphael/raphael-min.js"></script>
     <script src="{{ asset('/') }}admin/assets/node_modules/morrisjs/morris.min.js"></script>
